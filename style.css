@@ -1,0 +1,97 @@
+body {
+  background: pink;
+  color: rgb(50,50,50);
+  font-family: "Poppins",sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family:"Ubuntu", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #8bbabb;
+  font-size: 32px;
+  font-weight: 900;
+  text-align:center ;
+}
+
+h2 {
+  color: #8bbabb;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 700;
+  text-align: center;
+
+}
+a {
+  font-family: Eras Bold ITC;
+  text-decoration: none;
+  color: white;
+  background-color: blueviolet;
+  font-weight: 600;
+  font-size: 16px ;
+  padding: 5px 8px ;
+  border-radius: 4px;
+ }
+
+a:hover {
+  color: pink;
+}
+
+ .list-inline {list-style: none;
+padding-left: 0px;}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) 
+  .container {
+    width: 400px;
+   
+  
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+	border-radius: 70%;
+}
+.btn-blue {
+  background-color: blueviolet;
+  color: white; }
+
+  .btn-blue: hover {
+    background-color: black;
+    color: white;}
+
+}
+.list-inline i {
+  font-size: 50px;
+  color: #8bbabb;
+}
+.list-inline i:hover {
+  font-size: 50px;
+  color: black ;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
+.container {text-align: center;}
+
+
+
